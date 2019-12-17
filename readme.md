@@ -4,8 +4,8 @@ So far, having trouble creating db table using `$manager->createObject(\BasicExt
 
 Receiving errors:
 ```
-/core/src/Revolution/modX.php : 2483) Could not find legacy class BasicExtra\BasicData after converting to MODX\Revolution\BasicExtra\BasicData
+Fatal error: Uncaught Error: Class '\BasicExtra\mysql\BasicData' not found in core/vendor/xpdo/xpdo/src/xPDO/xPDO.php on line 801
 ```
 ```
-/core/vendor/xpdo/xpdo/src/xPDO/xPDO.php : 658) Could not load class: BasicExtra\BasicData from mysql.basicextra\basicdata
+Error: Class '\BasicExtra\mysql\BasicData' not found in core/vendor/xpdo/xpdo/src/xPDO/xPDO.php on line 801
 ```
