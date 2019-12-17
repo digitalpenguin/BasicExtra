@@ -1,6 +1,7 @@
 <?php
-namespace BasicExtra\MySQL;
+namespace BasicExtra\BasicData;
 use BasicExtra\BasicData;
+
 /**
  * @package @package BasicExtra
  */

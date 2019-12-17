@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model package="BasicExtra" baseClass="xPDOObject" platform="mysql" defaultEngine="InnoDB" phpdoc-package="BasicExtra" version="0.1">
+<model package="BasicExtra\" baseClass="xPDOObject" platform="mysql" defaultEngine="InnoDB" phpdoc-package="BasicExtra" version="3.0">
     <object class="BasicData" table="basic_data" extends="xPDO\Om\xPDOSimpleObject">
         <field key="name" dbtype="varchar" phptype="string" precision="191" null="false" default=""/>
         <field key="description" dbtype="text" phptype="string" null="true" />

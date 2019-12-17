@@ -1,7 +1,13 @@
 <?php
 $xpdo_meta_map = array (
-    'xPDO\\Om\\xPDOSimpleObject' =>
+    'version' => '3.0',
+    'namespace' => 'BasicExtra',
+    'namespacePrefix' => '',
+    'class_map' => 
     array (
-        0 => 'BasicExtra\\BasicData',
+        'xPDO\\Om\\xPDOSimpleObject' => 
+        array (
+            0 => 'BasicExtra\\BasicData',
+        ),
     ),
 );

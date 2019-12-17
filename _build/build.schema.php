@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Build Schema script
  *
