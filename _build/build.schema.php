@@ -5,6 +5,7 @@
  * @package BasicExtra
  * @subpackage build
  */
+
 $mtime = microtime();
 $mtime = explode(" ", $mtime);
 $mtime = $mtime[1] + $mtime[0];
@@ -25,7 +26,7 @@ $sources = array(
 );
 
 require_once dirname(__FILE__) . '/build.config.php';
-include(MODX_BASE_PATH.'core/src/Revolution/modX.php');
+require_once(MODX_BASE_PATH.'core/src/Revolution/modX.php');
 $modx = new \MODX\Revolution\modX();
 $modx->initialize('mgr');
 echo '<pre>';
@@ -56,7 +57,13 @@ $generator->mapHeader= <<<EOD
  * [+phpdoc-package+]
  */
 EOD;
+
 //$generator->parseSchema($sources['model'] . 'schema/'.PKG_NAME_LOWER.'.mysql.schema.xml', $sources['model']);
+
+// *****************
+// createObjectContainer can't find the classes....
+// *****************
+include $sources['model'] . 'vendor/autoload.php';
 $manager->createObjectContainer(\BasicExtra\BasicData::class);
 
 $mtime= microtime();
