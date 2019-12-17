@@ -1,0 +1,33 @@
+{
+    "name": "BasicExtra",
+    "lowCaseName": "basicextra",
+    "description": "A demo to show how to develop and extra for MODX 3.",
+    "author": "Murray Wood",
+    "version": "0.1.0",
+    "package":{
+        
+
+        "elements": {
+        
+            
+            
+            "snippets": [],
+            
+            
+        
+            
+            "chunks": [
+            
+            ]
+            
+        
+        },
+
+        "systemSettings": []
+    }
+    
+    ,"database": {
+        "tables": []
+    }
+    
+}
