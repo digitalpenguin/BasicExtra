@@ -1,5 +1,5 @@
 <?php
-namespace BasicExtra\BasicData;
+namespace BasicExtra\MySQL;
 use BasicExtra\BasicData;
 
 /**
